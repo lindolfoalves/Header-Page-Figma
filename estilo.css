@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 105px;
+    align-items: center;
+    gap: 16px;
+}
+
+header .pesquisa{
+    background-color: #47474710;
+    height: 60px;
+    border-radius: 8px;
+    width: 560px;
+    position: relative;
+}
+
+header .pesquisa input{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    padding-left: 16px;
+    padding-right: 60px;
+    transition: all 300ms ease;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+header .pesquisa input:focus{
+    border-color: #C92071;
+}
+
+header .pesquisa .btn{
+    width: 22px;
+    height: 22px;
+    border: 2px solid #66666650;
+    border-radius: 100%;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition-duration: 300ms;
+}
+header .pesquisa .btn::after{
+    content: "";
+    width: 6px;
+    height: 2px;
+    background-color: #66666650;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transition-duration: 300ms;
+}
+
+
+header .pesquisa .btn:hover{
+    border-color: #C92071;
+}
+
+header .pesquisa .btn:hover::after{
+    background-color: #C92071;
+}
+
+.titulo {
+    color: #C92071
+}
+
+header .logo{
+    display: flex;
+    gap: 8px;
+}
+
+header .signup{
+    background-color: white;
+    color: #474747;
+    text-decoration: underline;
+
+}
+
+header .signin{
+    background-color: #c60a30;
+    color: white;
+    width: 114px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+header nav ul{
+    display: flex;
+    padding-left: 105px;
+    margin-top: 20px;
+    gap: 32px; 
+    
+    
+}
+ 
+header ul li a{
+position: relative;
+width: 49px;
+height: 100px;
+left: 2px;
+top: 2px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 80px;
+
+}
+
+
+header nav ul li a{
+    color: #474747;
+    transition-duration: 300ms;
+    
+}
+
+header nav ul li a:hover{
+    color: #C92071;
+    text-decoration: underline; 
+    font-weight: 700px;
+}
+
+.acoes .acoes1 {
+    height: 28px;
+    width: 102px;
+    left: 991px;
+    top: 50px;
+    border-radius: 8px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    padding: 0px;
+    width: 140px;
+    height: 30px;
+    left: 1200px;
+    top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-decoration-line: underline;   
+    color: #474747;    
+    }
+    
+    
+    
+    
+    .linha {
+        position: absolute;
+        width: 280px;
+        height: 24px;
+        left: 100px;
+        top: 318px;   
+        height: 24px;
+        width: 280px;
+        left: 100px;
+        top: 318px;
+        font-family:'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        
+    }
+    
+
+    
+    #banner img{
+        display: block;
+        width: 100%;
+        }
+    
+        #banner .conteudo h1{
+        white-space: nowrap;
+        padding: 50px;
+        position: absolute;
+        width: 280px;
+        height: 24px;
+        left: 70px;
+        top: 250px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: #F6AA1C;
+        
+    }
+    
+    #banner .conteudo h2{
+        position: absolute;
+        width: 510px;
+        height: 132px;
+        left: 115px;
+        top: 350px;
+        font-family:'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 800px;
+        font-size: 64px;
+        line-height: 66px;
+        letter-spacing: 0px;
+    }
+    
+    #banner .conteudo p{
+        position: absolute;
+        width: 495px;
+        height: 68px;
+        left: 115px;
+        top: 500px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 0.75px;    
+    
+    }
+    
+    #banner .conteudo button{
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 0%;
+        bottom: 0%;
+        height: 40px;
+        width: 220px;
+        left: 115px;
+        top: 600px;
+        border-radius: 8px;
+        background: #c60a30;
+        letter-spacing: 0.75px; 
+        cursor: pointer;
+    
+    }
+    #banner .tenis{
+        position: absolute;
+        width: 733px;
+        height: 431px;
+        left: 550px;
+        top: 250px;
+        background: url(White-Sneakers-PNG-Clipart.png);
+        filter: drop-shadow(0px 4px 25px rgba(119, 15, 21, 0.08));
+        transform: rotate(-2.90deg);
+    }
+
+    #banner .circulo{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 1270px;
+    top: 300px;
+    background: #f9f9f9;
+    opacity: 60%;
+    }
+
+    #banner .bola{
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        left: 720px;
+        top: 790px;
+        cursor: pointer;
+           
+
+    }
+
+    #banner .bola1{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 740px;
+    top: 790px;
+    cursor: pointer;
+    }
+        
+    #banner .bola2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 760px;
+    top: 790px;
+    cursor: pointer;
+    }
+
+    #banner .bola3{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 780px;
+    top: 790px;
+    cursor: pointer;
+    }
+    
+    
+    
+ 
